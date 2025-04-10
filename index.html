@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - BTS SIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Hugo TALBOT</div>
+
+        <div class="nav-links">
+            <a href="#about">À propos</a>
+            <a href="#featured">Projets</a>
+            <a href="#skills">Compétences</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#tech-watch">Veille</a>
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <header class="hero d-flex align-items-center min-vh-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="fade-up">
+                    <div class="hero-title mb-4">
+                        <h1 class="display-3 fw-bold mb-3">Hugo TALBOT</h1>
+                        <div class="hero-subtitle">
+                            <p class="h3 mb-2">Étudiant en BTS SIO</p>
+                            <p class="h3 mb-4">Développeur Web & Designer</p>
+                        </div>
+                    </div>
+                    <div class="hero-description mb-5">
+                        <p class="lead">Passionné par le développement et le design, je crée des expériences numériques modernes et innovantes.</p>
+                    </div>
+                    <div class="social-links d-flex justify-content-center gap-4 mb-5">
+                        <a href="#" class="social-link btn btn-outline-primary">GITHUB</a>
+                        <a href="#" class="social-link btn btn-outline-primary">LINKEDIN</a>
+                    </div>
+                    <div class="scroll-down">
+                        <button onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})" class="btn btn-primary btn-lg">
+                            En savoir plus
+                            <i class="fas fa-chevron-down ms-2 scroll-down-arrow"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center mb-5" data-aos="fade-right">À PROPOS DE MOI</h2>
+                    
+                    <div class="about-content" data-aos="fade-up">
+                        <div class="about-text mb-5">
+                            <h3 class="about-subtitle mb-4">Parcours</h3>
+                            <p>Je suis actuellement étudiant en BTS SIO avec une spécialisation en développement d'applications (SLAM) au lycée Louis Pergaud. Mon parcours m'a permis de me familiariser avec différentes technologies et méthodologies de développement.</p>
+                        </div>
+
+                        <div class="about-text mb-5">
+                            <h3 class="about-subtitle mb-4">Loisirs/Hobbies</h3>
+                            <p>[...]</p>
+                        </div>
+
+                        <div class="about-text mb-5">
+                            <h3 class="about-subtitle mb-4">Objectifs</h3>
+                            <p>Après l'obtention de mon BTS SIO, je souhaite poursuivre mes études en licence professionnelle à Dijon, en me spécialisant dans le développement d'applications web.</p>
+                        </div>
+
+                        <div class="about-buttons text-center">
+                            <a href="#" class="btn btn-outline-primary me-3">Voir le CV</a>
+                            <a href="#" class="btn btn-primary">Télécharger le CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="featured-projects">
+        <h2 data-aos="fade-right">MES PROJETS</h2>
+        <div class="featured-grid">
+
+            <!-- Projet 1 : Espaces -->
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image-container">
+                    <img src="assets/EspaceCover.jpg" alt="Espaces" class="project-image">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Espaces</h3>
+                        <p class="project-subtitle">Application Desktop de gestion d'espaces</p>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="project-link">Détails <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 2 : MusicMailer  -->
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image-container">
+                    <img src="assets/musicMailerCover.jpg" alt="musicmailer" class="project-image">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">MusicMailer </h3>
+                        <p class="project-subtitle">Application web de mailling </p>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="project-link">Détails <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Projet 3 : Sanctions -->
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image-container">
+                    <img src="assets/SanctionCover.jpg" alt="Application Sanctions" class="project-image">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Sanctions</h3>
+                        <p class="project-subtitle">Application de gestion des sanctions</p>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="project-link">Détails <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 4 : Aura Studio -->
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image-container">
+                    <img src="assets/auraStudioCover.jpg" alt="aurastudio" class="project-image">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Aura Studio</h3>
+                        <p class="project-subtitle">Site web pour une maison d'édition</p>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="project-link">Détails <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 5 : Projet Cinema -->
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image-container">
+                    <img src="assets/cineNoteCover.jpg" alt="cinema" class="project-image">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">CineNote</h3>
+                        <p class="project-subtitle">Site web cinephile</p>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="project-link">Détails <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Projet 6 : Digital Loops -->
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image-container">
+                    <img src="assets/DigitalLoopCover.jpg" alt="Digital Loops" class="project-image">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Digital Loops</h3>
+                        <p class="project-subtitle">Site vitrine professionnel</p>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="project-link">Détails <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="skills" class="section">
+        <h2 data-aos="fade-right">Mes Compétences</h2>
+        <div class="skills-grid">
+            <!-- Développement Web -->
+            <div class="skill-card" data-aos="fade-up">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3 class="skill-title">Développement Web</h3>
+                <ul class="skill-list">
+                    <li class="skill-item">PHP 8</li>
+                    <li class="skill-item">HTML5</li>
+                    <li class="skill-item">CSS3</li>
+                    <li class="skill-item">Symfony 6</li>
+                    <li class="skill-item">React</li>
+                    <li class="skill-item">React Native</li>
+                    <li class="skill-item">Bootstrap</li>
+                </ul>
+            </div>
+
+            <!-- Base de données -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3 class="skill-title">Base de données</h3>
+                <ul class="skill-list">
+                    <li class="skill-item">SQL</li>
+                    <li class="skill-item">Mongo DB</li>
+                    <li class="skill-item">MySQL/MariaDB</li>
+                    <li class="skill-item">SQLServer</li>
+                </ul>
+            </div>
+
+            <!-- Cybersécurité -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3 class="skill-title">Cybersécurité</h3>
+                <ul class="skill-list">
+                    <li class="skill-item">Sécurité appliquée au développement web</li>
+                    <li class="skill-item">Architecture MVC</li>
+                    <li class="skill-item">Git</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section dark-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-right">
+                <h2 class="section-title">MES CERTIFICATIONS</h2>
+            </div>
+
+            <div class="certifications-grid" data-aos="fade-up">
+                <!-- CNIL Certifications -->
+                <div class="certification-card">
+                    <div class="certification-content">
+                        <div class="certification-header">
+                            <h3>MOOC CNIL</h3>
+                            <p class="certification-subtitle">Protection des données personnelles</p>
+                        </div>
+                        <div class="certification-modules">
+                            <div class="module-item">
+                                <span class="module-number">01</span>
+                                <span class="module-title">Le RGPD et ses notions clés</span>
+                                <div class="module-buttons">
+                                    <button class="btn-action"><i class="fas fa-eye"></i> Voir</button>
+                                    <button class="btn-action"><i class="fas fa-download"></i> Télécharger</button>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <span class="module-number">02</span>
+                                <span class="module-title">Les principes de la protection des données</span>
+                                <div class="module-buttons">
+                                    <button class="btn-action"><i class="fas fa-eye"></i> Voir</button>
+                                    <button class="btn-action"><i class="fas fa-download"></i> Télécharger</button>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <span class="module-number">03</span>
+                                <span class="module-title">Les responsabilités des acteurs</span>
+                                <div class="module-buttons">
+                                    <button class="btn-action"><i class="fas fa-eye"></i> Voir</button>
+                                    <button class="btn-action"><i class="fas fa-download"></i> Télécharger</button>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <span class="module-number">04</span>
+                                <span class="module-title">Le DPO et les outils de la conformité</span>
+                                <div class="module-buttons">
+                                    <button class="btn-action"><i class="fas fa-eye"></i> Voir</button>
+                                    <button class="btn-action"><i class="fas fa-download"></i> Télécharger</button>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <span class="module-number">05</span>
+                                <span class="module-title">Les collectivités territoriales</span>
+                                <div class="module-buttons">
+                                    <button class="btn-action"><i class="fas fa-eye"></i> Voir</button>
+                                    <button class="btn-action"><i class="fas fa-download"></i> Télécharger</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ANSSI Certification -->
+                <div class="certification-card">
+                    <div class="certification-content">
+                        <div class="certification-header">
+                            <h3>MOOC ANSSI</h3>
+                            <p class="certification-subtitle">Sécurité informatique</p>
+                        </div>
+                        <div class="certification-modules">
+                            <div class="module-item">
+                                <span class="module-number">01</span>
+                                <span class="module-title">SecNum Académie - Formation Cyberdéfense</span>
+                                <div class="module-buttons">
+                                    <button class="btn-action"><i class="fas fa-eye"></i> Voir</button>
+                                    <button class="btn-action"><i class="fas fa-download"></i> Télécharger</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech-watch" class="section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-right">Veille Technologique</h2>
+            
+            <div class="tech-watch-content" data-aos="fade-up">
+                <div class="tech-watch-description text-center mb-5">
+                    <p>Ma veille technologique est un processus continu qui me permet de rester à jour sur les dernières évolutions du secteur informatique. Je combine différentes sources d'information et outils pour maintenir mes connaissances à jour et anticiper les futures tendances du marché.</p>
+                </div>
+
+                <div class="tech-watch-grid">
+                    <!-- Veille Cybersécurité -->
+                    <div class="tech-watch-card">
+                        <div class="tech-watch-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Veille sur la Cybersécurité</h3>
+                        <p>Suivi des dernières menaces et bonnes pratiques en sécurité informatique</p>
+                        <div class="tech-watch-sources">
+                            <h4>Sources principales :</h4>
+                            <ul>
+                                <li>ANSSI</li>
+                                <li>Zataz</li>
+                                <li>Security Affairs</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Développement Web -->
+                    <div class="tech-watch-card">
+                        <div class="tech-watch-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Développement Web</h3>
+                        <p>Actualités sur les frameworks et nouvelles technologies web</p>
+                        <div class="tech-watch-sources">
+                            <h4>Sources principales :</h4>
+                            <ul>
+                                <li>Dev.to</li>
+                                <li>Medium</li>
+                                <li>Smashing Magazine</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Outils et Méthodes -->
+                    <div class="tech-watch-card">
+                        <div class="tech-watch-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Outils et Méthodes</h3>
+                        <p>Découverte des nouveaux outils et méthodologies de développement</p>
+                        <div class="tech-watch-sources">
+                            <h4>Sources principales :</h4>
+                            <ul>
+                                <li>GitHub Blog</li>
+                                <li>ProductHunt</li>
+                                <li>Hacker News</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© Hugo TALBOT | 2024</p>
+        </div>
+    </footer>
+
+    <!-- Modal Projet -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="project-modal-content">
+                        <div class="project-gallery mb-4">
+                            <div class="main-image-container mb-3">
+                                <img src="" alt="" class="project-main-image img-fluid w-100">
+                            </div>
+                            <div class="project-thumbnails d-flex gap-2 overflow-auto">
+                                <!-- Les miniatures seront injectées ici par JavaScript -->
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h2 class="project-title h3 mb-3"></h2>
+                            <div class="project-description mb-4"></div>
+                            <div class="project-details">
+                                <div class="technologies mb-3">
+                                    <h4 class="h6 mb-2">Technologies utilisées</h4>
+                                    <div class="tech-tags"></div>
+                                </div>
+                                <div class="features mb-4">
+                                    <h4 class="h6 mb-2">Fonctionnalités principales</h4>
+                                    <ul class="features-list"></ul>
+                                </div>
+                            </div>
+                            <div class="project-actions d-flex gap-3">
+                                <a href="#" class="btn btn-primary project-link" target="_blank">Voir le projet</a>
+                                <a href="#" class="btn btn-outline-primary project-github" target="_blank">Code source</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
