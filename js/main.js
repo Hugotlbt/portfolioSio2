@@ -127,7 +127,7 @@ const projects = {
             "assets/sanctionCreationPromo.jpg"
         ],
         link: "https://example.com/sanctions",
-        github: "https://github.com/username/sanctions"
+        github: "https://github.com/Hugotlbt/gestion-sanctions-mvc"
     },
     digitalloops: {
         title: "Digital Loops",
@@ -147,35 +147,36 @@ const projects = {
             "assets/DigitalLoopsEquipe.jpg"
         ],
         link: "https://example.com/digitalloops",
-        github: "https://github.com/username/digitalloops"
+        github: "https://github.com/Hugotlbt/entrepriseProjet"
     },
     espaces: {
         title: "Espaces",
-        description: "Application Web de gestion de cinémathèque personnelle utilisant l'API TMDB pour fournir des informations détaillées sur les films.",
+        description: "Application desktop en cours de création permettant de gerez des espaces de reunion en location.",
         technologies: ["Electron", "JS", "MySQL", "Bootstrap", "HTML/CSS"],
         features: [
-            "Recherche de films avec autocomplétion",
-            "Gestion de listes personnalisées",
-            "Recommandations basées sur les préférences",
-            "Intégration des notes et critiques"
+            "Connexion / Inscription d'utilisateurs",
+            "Gestion des espaces",
+            "Voir details des espaces",
+            "Reservation d'éspaces"
         ],
         images: [
             "assets/EspaceCover.jpg",
             "assets/EspaceConnexion.jpg",
             "assets/EspaceInscription.jpg"
         ],
-        link: "https://example.com/bestmovie",
-        github: "https://github.com/username/bestmovie"
+        link: "https://example.com",
+        github: "https://github.com/SIO-2025/projet-espaces-sio2-Hugotlbt"
     },
     musicmailer: {
         title: "Music Mailer",
-        description: "Plugin WordPress développé pour Client Roi permettant la gestion et l'affichage des commerces par ordre alphabétique avec une navigation intuitive.",
+        description: "Application web de mailling spécialisé dans l'envoi de fichers audio.",
         technologies: ["Python FLASK", "HTML/CSS", "MongoDB", "Bootstrap"],
         features: [
-            "Navigation alphabétique des commerces",
-            "Filtrage dynamique des résultats",
-            "Intégration transparente avec WordPress",
-            "Interface d'administration personnalisée"
+            "Gestion des contacts",
+            "Importation et exportation en CSV des contacts",
+            "Envoi de plusieurs emails en meme temps",
+            "Stockage de templates de corp de mail",
+            "En cours de devellopement : Suivi des ouvertures de mails"
         ],
         images: [
             "assets/musicMailerCover.jpg",
@@ -185,8 +186,8 @@ const projects = {
             "assets/musicMailerEnvoi.jpg",
             "assets/musicMailerSupp.jpg",
         ],
-        link: "https://example.com/plugin-abecedaire",
-        github: "https://github.com/username/plugin-abecedaire"
+        link: "",
+        github: "https://github.com/Hugotlbt/Projet_aura_mailing"
     },
     aurastudio: {
         title: "Aura Studio",
@@ -205,8 +206,8 @@ const projects = {
             "assets/auraStudioArtisteZoom.jpg",
             "assets/auraStudioPhoto.jpg"
         ],
-        link: "https://example.com/assoboxe",
-        github: "https://github.com/username/assoboxe"
+        link: "",
+        github: ""
     },
     cinenote: {
         title: "CineNote",
@@ -225,8 +226,8 @@ const projects = {
             "assets/cineNoteConnexion.jpg",
             "assets/cineNoteGestionErreur.jpg"
         ],
-        link: "https://example.com/page-detail-commerce",
-        github: "https://github.com/username/page-detail-commerce"
+        link: "",
+        github: "https://github.com/Hugotlbt/projet-cinema/tree/main/dev"
     }
 };
 
